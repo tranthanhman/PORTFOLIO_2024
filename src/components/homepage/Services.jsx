@@ -5,17 +5,15 @@ export default function Services() {
   const expertiseItems = [
     "Web Development",
     "Web Design",
-    "Wireframing",
     "UI/UX Design",
     "Branding",
   ];
 
   const toolBoxItems = [
-    "JavaScript",
     "HTML",
     "CSS",
-    "Figma",
-    "Webflow",
+    "JavaScript",
+    "Wordpress",
     "GSAP",
     "TailwindCSS",
     "ReactJS",

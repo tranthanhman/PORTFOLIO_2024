@@ -1,7 +1,7 @@
-import ibgroup from "/src/assets/images/ib-group-desktop.webp";
-import memento from "/src/assets/images/memento-desktop.webp";
-import acc from "/src/assets/images/acc-square.webp";
-import daddy from "/src/assets/images/godaddy-desktop.webp";
+import onlinestore247 from "/src/assets/images/onlinestore247.webp";
+import starspin from "/src/assets/images/starspin.webp";
+import smartpay from "/src/assets/images/smartpay.webp";
+import sgvis from "/src/assets/images/sgvis.webp";
 import sunnyside from "/src/assets/images/sunnyside-desktop.webp";
 import Projects from "../ui/Projects";
 import Heading from "../ui/Heading";
@@ -18,62 +18,63 @@ export default function Works({ forwardedRef }) {
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
           <Projects
-            link="https://musical-stroopwafel-1c2327.netlify.app/landing.html"
-            img={ibgroup}
-            alt="IBGroup vietnam website mockup"
-            name="ibgroup vietnam website"
-            type="Web Design • Frontend Development"
+            link="https://onlinestore247.com/"
+            img={onlinestore247}
+            alt="Onlinestore247 Ecommerce website"
+            name="Onlinestore247 Ecommerce website"
+            type="Frontend Development"
             year="2023"
-            tools="HTML • TailwindCSS • JavaScript • Figma"
-
+            tools="NextJs • Scss"
           />
         </div>
         {/* Project #2 */}
         <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
           <Projects
-            link="https://mementostudio.netlify.app/"
-            img={memento}
-            alt="memento landing page mockup"
-            name="memento studio landing page"
+            link="https://star-spin.sapporo-starguide.com/"
+            img={starspin}
+            alt="Starspin Sapporo Landing Page"
+            name="Starspin Sapporo Landing Page"
             type="Frontend Development"
             year="2023"
-            tools="HTML • TailwindCSS • JavaScript"
+            tools="HTML • CSS • JavaScript • GSAP"
           />
         </div>
+        {/* Project #3 */}
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
-            link="https://realbusinessaccountants.netlify.app"
-            img={acc}
-            alt="real business accountant project mockup"
-            name="real business accountants"
-            type="Web Design • Frontend Development"
+            link="https://www.smartpayvn.com/"
+            img={smartpay}
+            alt="Smartpay Viet Nam Webstite"
+            name="Smartpay Viet Nam Webstite"
+            type="Frontend Development"
             year="2023"
-            tools="HTML • CSS • JavaScript • Figma"
+            tools="HTML • CSS • JavaScript • Wordpress"
           />
         </div>
+        {/* Project #4 */}
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
           <Projects
-            link="https://godaddyuiclone.netlify.app"
-            img={daddy}
-            alt="godaddy clone page mockup"
-            name="GODADDY LANDING PAGE CLONE"
+            link="https://thamdinhgiabatdongsan.vn/"
+            img={sgvis}
+            alt="SGIIC Landing Page Website"
+            name="SGIIC Landing Page Website"
             type="Frontend Development"
             year="2023"
-            tools="HTML • TailwindCSS • JavaScript"
+            tools="HTML • CSS • JavaScript • Wordpress"
           />
         </div>
-        <div className="col-span-1 h-fit md:col-span-4">
-        <Projects
-            link="https://sunnysidechallenge.netlify.app"
-            img={sunnyside}
-            alt="sunnyside project mockup"
-            name="SUNNYSIDE LANDING PAGE"
-            type="Frontend Development"
-            year="2022"
-            tools="HTML • TailwindCSS • JavaScript"
-          />
-         
-        </div>
+        {/*/!* Project #5 *!/*/}
+        {/*<div className="col-span-1 h-fit md:col-span-4">*/}
+        {/*<Projects*/}
+        {/*    link="https://sunnysidechallenge.netlify.app"*/}
+        {/*    img={dad}*/}
+        {/*    alt="sunnyside project mockup"*/}
+        {/*    name="SUNNYSIDE LANDING PAGE"*/}
+        {/*    type="Frontend Development"*/}
+        {/*    year="2022"*/}
+        {/*    tools="HTML • TailwindCSS • JavaScript"*/}
+        {/*  />*/}
+        {/*</div>*/}
       </div>
     </section>
   );

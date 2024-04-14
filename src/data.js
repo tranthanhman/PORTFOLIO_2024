@@ -1,5 +1,5 @@
 // projectsData.js
-import ibgroup from '/src/assets/images/ib-group-desktop.webp';
+import onlinestore247 from '/src/assets/images/onlinestore247.webp';
 import memento from '/src/assets/images/memento-desktop.webp';
 import acc from '/src/assets/images/acc-square.webp';
 import daddy from '/src/assets/images/godaddy-desktop.webp';
@@ -7,10 +7,10 @@ import sunnyside from '/src/assets/images/sunny-side-square.webp';
 
 const projectsData = [
   {
-    title: 'IB Group Vietnam Website',
+    title: 'Onlinestore247 Website',
     description: 'Web Design / Frontend Development',
-    imageSrc: ibgroup,
-    link: 'https://musical-stroopwafel-1c2327.netlify.app/landing.html'
+    imageSrc: onlinestore247,
+    link: 'https://onlinestore247.com/'
   },
   {
     title: 'Memento Studio Landing Page',
